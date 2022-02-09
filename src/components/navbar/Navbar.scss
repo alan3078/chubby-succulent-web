@@ -1,0 +1,29 @@
+.navbar {
+  margin: 0 10px;
+  padding: 20px 10px;
+  font-weight: bold;
+  .logo-div {
+    display: flex;
+    align-items: center;
+    grid-gap: 25px;
+    font-size: 20px;
+    .chubby {
+      color: #1ad917bf;
+    }
+    .succulent {
+      font-size: 20px;
+    }
+    .logo {
+      border-radius: 50%;
+      width: 30%;
+    }
+  }
+  hr {
+    height: 1px;
+    background: green;
+    border: 1px solid green;
+    border-radius: 5px;
+  }
+}
+
+
