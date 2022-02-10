@@ -14,7 +14,9 @@ const Navbar: React.FC<{}> = () => {
             <span className="succulent">Succulent</span>
           </div>
           <div>
-            <a href="https://www.instagram.com/chubbysucculent/">https://www.instagram.com/chubbysucculent/</a>
+            <a href="https://www.instagram.com/chubbysucculent/">
+              https://www.instagram.com/chubbysucculent/
+            </a>
           </div>
         </div>
       </div>

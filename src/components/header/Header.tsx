@@ -1,9 +1,6 @@
 import React from "react";
 import "./Header.scss";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faTriangleExclamation } from "@fortawesome/free-solid-svg-icons";
 
-import Image1 from "../../assets/image1.jpg";
 import Image2 from "../../assets/image2.jpg";
 import Grid from "@mui/material/Grid";
 
