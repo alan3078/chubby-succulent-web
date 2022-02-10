@@ -13,9 +13,6 @@ const Header: React.FC<{}> = () => {
       alignItems="center"
       justifyContent="space-evenly"
     >
-      <Grid item xs={10} md={5} className="header-text">
-        Let the environment be green
-      </Grid>
       <Grid item xs={10} md={5} className="header-speech-bubble">
         <div>🤎多肉植物｜肥嘟嘟控養多肉</div>
         <div>🦥佛系養肉人</div>
