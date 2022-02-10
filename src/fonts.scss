@@ -1,15 +1,4 @@
 @font-face {
-  font-family: "OpenSans";
-  src: url("./fonts/OpenSans/OpenSans-Regular.ttf");
-}
-
-@font-face {
-  font-family: "OpenSans";
-  src: url("./fonts/OpenSans/OpenSans-SemiBold.ttf");
-  font-weight:bold
-}
-
-@font-face {
   font-family: "PlayfairDisplay";
   src: url("./fonts/PlayfairDisplay/PlayfairDisplay-Regular.ttf");
 }
@@ -17,7 +6,11 @@
 @font-face {
   font-family: "PlayfairDisplay";
   src: url("./fonts/PlayfairDisplay/PlayfairDisplay-SemiBold.ttf");
-  font-weight:bold
+  font-weight: bold;
 }
 
-
+@font-face {
+  font-family: "PlayfairDisplay";
+  src: url("./fonts/PlayfairDisplay/PlayfairDisplay-Italic.ttf");
+  font-style: italic;
+}

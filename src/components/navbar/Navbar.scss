@@ -2,20 +2,21 @@
   margin: 0 10px;
   padding: 20px 10px;
   font-weight: bold;
+  grid-gap: 6rem;
   .logo-div {
     display: flex;
     align-items: center;
-    grid-gap: 25px;
+    grid-gap: 15px;
     font-size: 20px;
     .chubby {
-      color: #1ad917bf;
+      color: #5cb75bbf;
     }
     .succulent {
       font-size: 20px;
     }
     .logo {
       border-radius: 50%;
-      width: 30%;
+      width: 4rem;
     }
   }
   hr {
@@ -24,6 +25,11 @@
     border: 1px solid green;
     border-radius: 5px;
   }
+  a {
+    font-size: 10px;
+  }
+  a:visited {
+    text-decoration: none;
+    color: black;
+  }
 }
-
-

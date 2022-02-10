@@ -1,36 +1,25 @@
-import React, { useContext, useState, useEffect, createContext } from 'react'
-import './Navbar.scss'
-import logo from "../../assets/logo.jpg"
-import Grid from '@mui/material/Grid';
+import React from "react";
+import "./Navbar.scss";
+import logo from "../../assets/logo.jpg";
+import Grid from "@mui/material/Grid";
 
-const Navbar: React.FC<{}> = props => {
+const Navbar: React.FC<{}> = () => {
+  return (
+    <Grid className="navbar" container direction="row" alignItems="center">
+      <div className="logo-div">
+        <img className="logo" src={logo} alt="Logo" />
+        <div>
+          <div>
+            <span className="chubby">Chubby</span>
+            <span className="succulent">Succulent</span>
+          </div>
+          <div>
+            <a href="https://www.instagram.com/chubbysucculent/">https://www.instagram.com/chubbysucculent/</a>
+          </div>
+        </div>
+      </div>
+    </Grid>
+  );
+};
 
-    return (
-        <Grid
-            className="navbar"
-            container
-            direction="row"
-            justifyContent="space-between"
-            alignItems="center"
-        >
-            <div className="logo-div">
-                <img className="logo" src={logo} alt="Logo" />
-                <div>
-                    <span className="chubby">
-                        Chubby
-                    </span>
-                    <span className="succulent">
-                        Succulent
-                    </span>
-                </div>
-
-            </div>
-            <div>
-                <span>Home</span>
-                <hr></hr>
-            </div>
-        </Grid>
-    )
-}
-
-export default Navbar
+export default Navbar;
