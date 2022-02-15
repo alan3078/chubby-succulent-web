@@ -1,35 +1,22 @@
 .navbar {
-  margin: 0 10px;
-  padding: 20px 10px;
-  font-weight: bold;
+  padding: 10px 4%;
+  padding-bottom: 0;
   grid-gap: 6rem;
+  background: white;
   .logo-div {
     display: flex;
     align-items: center;
     grid-gap: 15px;
-    font-size: 20px;
+    font-size: 1.5em;
     .chubby {
       color: #5cb75bbf;
-    }
-    .succulent {
-      font-size: 20px;
-    }
-    .logo {
-      border-radius: 50%;
-      width: 4rem;
+      display: inline-flex;
+      align-items: center;
     }
   }
-  hr {
-    height: 1px;
-    background: green;
-    border: 1px solid green;
-    border-radius: 5px;
-  }
-  a {
-    font-size: 10px;
-  }
-  a:visited {
-    text-decoration: none;
-    color: black;
-  }
+}
+
+.logo {
+  border-radius: 50%;
+  width: 3rem;
 }

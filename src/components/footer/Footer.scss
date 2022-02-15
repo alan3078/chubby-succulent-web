@@ -1,0 +1,23 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-gap: 10px;
+  padding: 4% 0;
+  width: auto;
+  height: auto;
+  background-color: blue;
+  overflow: auto;
+  background-color: white;
+  a:-webkit-any-link {
+    text-decoration: none;
+  }
+  a:visited {
+    text-decoration: none;
+    color: black;
+  }
+  img {
+    width: 80px;
+    height: 80px;
+  }
+}
